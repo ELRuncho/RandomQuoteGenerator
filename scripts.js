@@ -1,1 +1,3 @@
-vascript file
+$("#Clicky").on("click", function(){
+	
+})
