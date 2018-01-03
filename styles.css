@@ -4,7 +4,10 @@ body{
 }
 #qFrame{
 	text-align: center;
-	background-color: yellow;
+	background-color: white;
+	margin-top: 160px;
+	padding-bottom: 20px;
+	border-radius: 25px;
 }
 .button{
 	
