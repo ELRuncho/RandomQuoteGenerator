@@ -1,16 +1,23 @@
 $(function(){	
-	$("#Clicky").on("click", function(){
-		$.getJSON("http://quotes.rest/qod.json";function(json){
-			var q1 = "";
-			json.forEach(function(val){
-				var keys = Object.keys(val);
-				q1 += "<div class = 'quote2'>";
-				keys.forEach(function(key){
-					q1+="<strong>"+ key + "</strong>: "+ val[key]+"<br>";
-				});
-				q1+="</div><br>";
-			});
-			$(".quote").html(q1);
-		});
-	});
+  var quoteStorage=[];	
+  	$.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=40&callback=", function(data) {
+    	data.forEach(function(val){
+    		quoteStorage.push(val);
+    	})
+    	rotateQuote();
+  	});
+
+  	function rotateQuote(){
+  		var randQ = Math.floor((Math.random() * 39))
+
+  		$()
+  		$()
+  		$()
+  		$()
+  		$()
+  	}
+  	
+  	$("#Clicky").on('click', function(){
+  		rotateQuote();
+  	});
 });
