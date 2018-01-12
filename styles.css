@@ -1,14 +1,36 @@
-body{
-
-	background-color: lightblue;
+.bod{
+	transition:background-color 0.5s;
 }
+
 #qFrame{
 	text-align: center;
 	background-color: white;
 	margin-top: 160px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 20px;
 	padding-bottom: 20px;
-	border-radius: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 3px 50px  3px 25px;
 }
-.button{
+#qText{
+	font-family: "Helvetica";
+	font-size: 1.5em ;
+  	padding-left: 1em;
+  	padding-right: 1em;
+  	padding-bottom:1em;
+}
+#bQ{
+  font-size: 1.5em;
+  padding-top:1em;
+}
+#autor{
+	font-size: 1.35em;
+	padding-bottom: 1.5em;
+  padding-right:2em;
+	text-align: right;
+}
+#Clicky{
 	
 }
