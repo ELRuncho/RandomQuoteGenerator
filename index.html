@@ -4,20 +4,21 @@
   			<meta charset="utf-8">
   			<meta http-equiv="X-UA-Compatible" content="IE-edge">
   			<title>El Runcho's Random Quote Generator</title>
+  			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   			<link rel="stylesheet" href="./styles.css">
   			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   			<script type="text/javascript" src="./scripts.js"></script>
 		</head>
-		<body>
+		<body class="bod"><!--I had to set an id on the body because code pen was not taking the changes when usiing body in the css-->
 			<div id="qFrame">
-				<div id="Quote">
-					<span id="qText"></span>
+				<div id="Quote" class="text">
+					<span><i id="bQ" class="fa fa-quote-left" aria-hidden="true"></i><p id="qText">It is not about winning, <br>it is about making everyone else loose</p></span>
 				</div>
-				<div id="autor" class="standard-text">
-					autor
+				<div id="autor" class="text">
+					Colombian Proberb
 				</div>
-				<button id="Clicky" type="button" class="button btn btn-primary">Next Quote!</button>
+				<button id="Clicky" type="button" class="button btn btn-primary bod">Next Quote!</button>
 			</div>
 		</body>
 	</html>
